@@ -14,3 +14,8 @@ jobs:
         run: |
           echo "Criando do priemiro worlflow"
           echo "Parabéns !!!"
+      - name: "Script Python"
+        run: |
+          variable: "Hello World !!!"
+          print(variable)
+        shell: python
