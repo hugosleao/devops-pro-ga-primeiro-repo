@@ -16,6 +16,6 @@ jobs:
           echo "Parabéns !!!"
       - name: "Script Python"
         run: |
-          variavel: "Hello World !!!"
+          variavel = "Hello World !!!"
           print(variavel)
         shell: python
