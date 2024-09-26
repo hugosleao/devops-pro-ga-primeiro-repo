@@ -19,3 +19,9 @@ jobs:
           variavel = "Hello World !!!"
           print(variavel)
         shell: python
+  segundo-job:
+    name: "Install NodaJS environment"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Verificar NodeJS version"
+        run: node --version
